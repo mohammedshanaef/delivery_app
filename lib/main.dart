@@ -1,3 +1,4 @@
+import 'package:delivery_app/views/onboarding.dart';
 import 'package:delivery_app/views/splash_view.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +12,8 @@ class DeliveryApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: SplashView(),
+      debugShowCheckedModeBanner: false,
+      home: OnboardingScreen(),
     );
   }
 }
